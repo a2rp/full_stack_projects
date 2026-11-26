@@ -1,0 +1,101 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    // border: 1px solid #f00;
+
+    .userContent {
+        padding: 15px;
+
+        h1 { font-size: 22px; }
+        > p { margin-top: 8px; line-height: 1.5; }
+
+        .message {
+            margin-top: 12px;
+            color: #126f77;
+            line-height: 1.5;
+        }
+
+        .uploadFile {
+            display: grid;
+            justify-items: start;
+            gap: 10px;
+            margin-top: 15px;
+
+            label { font-weight: 700; }
+            input[type="file"] { max-width: 100%; }
+
+            .uploadSubmit {
+                min-height: 34px;
+                padding: 0 15px;
+                border: 0;
+                border-radius: 4px;
+                color: #fff;
+                background: #126f77;
+                font-weight: 700;
+            }
+        }
+
+        .files {
+            overflow-x: auto;
+
+            table {
+                margin-top: 15px;
+                // table-layout: fixed;
+                width: 100%;
+
+                thead {
+                    tr {
+                        th {
+                            padding: 5px;
+                            background-color: #000;
+                            color: #fff;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            padding: 5px;
+                            text-align: center;
+
+                            button.delete,
+                            button.download {
+                                padding: 5px;
+                                padding-left: 15px;
+                                padding-right: 15px;
+                                border: none;
+                                font-weight: bolder;
+                                border-radius: 3px;
+
+                                &:hover {
+                                    font-style: italic;
+                                }
+                            }
+                            button.download {
+                                background-color: #00f;
+                                color: #fff;
+                            }
+                            button.delete {
+                                background-color: #f00;
+                                color: #fff;
+                            }
+
+                            a { color: #126f77; text-decoration: underline; }
+                            code { overflow-wrap: anywhere; }
+                        }
+                    }
+                    tr:nth-child(odd) {
+                        background-color: aliceblue;
+                    }
+                }
+            }
+        }
+    }
+}

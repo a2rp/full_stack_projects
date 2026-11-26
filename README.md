@@ -1,4 +1,4 @@
-﻿# Full Stack Projects
+# Full Stack Projects
 
 A collection of practical applications that include both a user interface and a server, organized so each project can be explored and run independently.
 
@@ -6,6 +6,8 @@ A collection of practical applications that include both a user interface and a 
 
 - **[React and Node.js Message Demo](projects/react-node-message-demo/README.md)** — a Vite and React frontend that requests a JSON message from an Express API, with health routes, CORS configuration, request logging, and environment-based settings.
 - **[PHP MySQL Ecommerce Application](projects/ecommerce-web-application-php-mysql/README.md)** — a server-rendered storefront with customer accounts, product management, checkout, orders, and a MySQL database.
+
+- **[File Upload, Download, and User Authentication](projects/file-upload-download-with-user-auth/README.md)** — a React and Express file gallery with per-user uploads, protected sharing, and MongoDB metadata.
 
 ## Repository layout
 
@@ -17,12 +19,16 @@ full_stack_projects/
 │   │   ├── frontend/
 │   │   ├── LICENSE
 │   │   └── README.md
-│   └── ecommerce-web-application-php-mysql/
-│       ├── admin/
-│       ├── database/
-│       ├── config/
-│       ├── includes/
-│       ├── *.php
+│   ├── ecommerce-web-application-php-mysql/
+│   │   ├── admin/
+│   │   ├── database/
+│   │   ├── config/
+│   │   ├── includes/
+│   │   ├── *.php
+│   │   └── README.md
+│   └── file-upload-download-with-user-auth/
+│       ├── backend/
+│       ├── frontend/
 │       └── README.md
 ├── LICENSE
 └── README.md
