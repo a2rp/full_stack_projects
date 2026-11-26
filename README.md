@@ -5,16 +5,24 @@ A collection of practical applications that include both a user interface and a 
 ## Projects
 
 - **[React and Node.js Message Demo](projects/react-node-message-demo/README.md)** — a Vite and React frontend that requests a JSON message from an Express API, with health routes, CORS configuration, request logging, and environment-based settings.
+- **[PHP MySQL Ecommerce Application](projects/ecommerce-web-application-php-mysql/README.md)** — a server-rendered storefront with customer accounts, product management, checkout, orders, and a MySQL database.
 
 ## Repository layout
 
 ```text
 full_stack_projects/
 ├── projects/
-│   └── react-node-message-demo/
-│       ├── backend/
-│       ├── frontend/
-│       ├── LICENSE
+│   ├── react-node-message-demo/
+│   │   ├── backend/
+│   │   ├── frontend/
+│   │   ├── LICENSE
+│   │   └── README.md
+│   └── ecommerce-web-application-php-mysql/
+│       ├── admin/
+│       ├── database/
+│       ├── config/
+│       ├── includes/
+│       ├── *.php
 │       └── README.md
 ├── LICENSE
 └── README.md
