@@ -1,0 +1,30 @@
+{
+    "name": "basic-react-js-node-backend",
+    "version": "1.0.0",
+    "description": "A small Express API for a React and Node.js full-stack demo",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "start:dev": "nodemon index.js"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "react",
+        "rest-api",
+        "full-stack-demo"
+    ],
+    "author": "Ashish Ranjan",
+    "license": "MIT",
+    "engines": {
+        "node": ">=20.19.0"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
