@@ -8,30 +8,22 @@ A collection of practical applications that include both a user interface and a 
 - **[PHP MySQL Ecommerce Application](projects/ecommerce-web-application-php-mysql/README.md)** — a server-rendered storefront with customer accounts, product management, checkout, orders, and a MySQL database.
 
 - **[File Upload, Download, and User Authentication](projects/file-upload-download-with-user-auth/README.md)** — a React and Express file gallery with per-user uploads, protected sharing, and MongoDB metadata.
+- **[Language Translator](projects/language-translator/README.md)** - A React and Express translation app with a RapidAPI provider, language selection, speech, and copy controls.
 
 ## Repository layout
 
 ```text
 full_stack_projects/
-├── projects/
-│   ├── react-node-message-demo/
-│   │   ├── backend/
-│   │   ├── frontend/
-│   │   ├── LICENSE
-│   │   └── README.md
-│   ├── ecommerce-web-application-php-mysql/
-│   │   ├── admin/
-│   │   ├── database/
-│   │   ├── config/
-│   │   ├── includes/
-│   │   ├── *.php
-│   │   └── README.md
-│   └── file-upload-download-with-user-auth/
-│       ├── backend/
-│       ├── frontend/
-│       └── README.md
-├── LICENSE
-└── README.md
+|-- projects/
+|   |-- react-node-message-demo/
+|   |-- ecommerce-web-application-php-mysql/
+|   |-- file-upload-download-with-user-auth/
+|   `-- language-translator/
+|       |-- backend/
+|       |-- frontend/
+|       `-- README.md
+|-- LICENSE
+`-- README.md
 ```
 
 Each project keeps its own dependencies, environment examples, setup instructions, and source code. Open its README for prerequisites and run commands.
