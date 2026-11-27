@@ -10,6 +10,7 @@ A collection of practical applications that include both a user interface and a 
 - **[Language Translator](projects/language-translator/README.md)** - A React and Express translation app with a RapidAPI provider, language selection, speech, and copy controls.
 - **[Laravel MySQL CRUD](projects/laravel-mysql-crud/README.md)** - A Laravel 10 and MySQL learning app for product catalog CRUD with server-side validation and pagination.
 - **[Laravel MySQL CRUD App](projects/laravel-mysql-crud-app/README.md)** - A Laravel 10 and MySQL inventory app with validated product details, stock quantities, and pagination.
+- **[Laravel MySQL CRUD with Authentication](projects/laravel-mysql-crud-with-authentication/README.md)** - A Laravel 10 inventory app with registration, login, profile management, and authenticated product CRUD.
 
 ## Repository layout
 
@@ -21,7 +22,8 @@ full_stack_projects/
 |   |-- file-upload-download-with-user-auth/
 |   |-- language-translator/
 |   |-- laravel-mysql-crud/
-|   `-- laravel-mysql-crud-app/
+|   |-- laravel-mysql-crud-app/
+|   `-- laravel-mysql-crud-with-authentication/
 |-- LICENSE
 `-- README.md
 ```
