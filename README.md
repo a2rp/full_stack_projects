@@ -5,6 +5,7 @@ A collection of practical applications that include both a user interface and a 
 ## Projects
 
 - **[React and Node.js Message Demo](projects/react-node-message-demo/README.md)** - A Vite and React frontend that requests a JSON message from an Express API, with health routes, CORS configuration, request logging, and environment-based settings.
+- **[React and Node.js Razorpay Checkout](projects/node-react-razorpay/README.md)** - A React checkout and Express API demo with server-created orders and payment-signature verification.
 - **[PHP MySQL Ecommerce Application](projects/ecommerce-web-application-php-mysql/README.md)** - A server-rendered storefront with customer accounts, product management, checkout, orders, and a MySQL database.
 - **[File Upload, Download, and User Authentication](projects/file-upload-download-with-user-auth/README.md)** - A React and Express file gallery with per-user uploads, protected sharing, and MongoDB metadata.
 - **[Language Translator](projects/language-translator/README.md)** - A React and Express translation app with a RapidAPI provider, language selection, speech, and copy controls.
@@ -18,6 +19,7 @@ A collection of practical applications that include both a user interface and a 
 full_stack_projects/
 |-- projects/
 |   |-- react-node-message-demo/
+|   |-- node-react-razorpay/
 |   |-- ecommerce-web-application-php-mysql/
 |   |-- file-upload-download-with-user-auth/
 |   |-- language-translator/
